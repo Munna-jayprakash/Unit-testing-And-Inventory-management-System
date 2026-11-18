@@ -1,0 +1,29 @@
+2026-11-01 19:42:42,155 - INFO - Performing product stock checks...
+2026-11-01 19:42:42,156 - INFO - Product stock check successful: Stock is available (Available: 10, Requested: 8)
+2026-11-01 19:42:42,156 - ERROR - Product stock check failed: Stock is not available 
+2026-11-01 19:42:42,156 - INFO - Calculating total price...
+2026-11-01 19:42:42,156 - INFO - Successful operation: Total price calculated = 2000.00 (Price: 500, Quantity: 4)
+2026-11-01 19:42:42,156 - ERROR - Error calculating total price: Price cannot be negative
+2026-11-01 19:42:42,156 - INFO - Applying discount...
+2026-11-01 19:42:42,156 - INFO - Successful operation: Discount amount calculated = 200.00 (Total: 2000, Discount: 10%)
+2026-11-01 19:42:42,156 - ERROR - Error applying discount: Discount Percent must be between 0 to 100
+2026-11-01 19:48:01,610 - INFO - Product check: Stock is available
+2026-11-01 19:48:01,610 - ERROR - Product check error: Stock is not available 
+2026-11-01 19:48:01,610 - INFO - Success: Total price is 200
+2026-11-01 19:48:01,610 - INFO - Success: Discounted amount is 20.0
+2026-11-01 19:48:01,610 - ERROR - Calculation error: Price cannot be negative
+2026-11-02 11:46:49,917 - INFO - Product check: Stock is available
+2026-11-02 11:46:49,919 - ERROR - Product check error: Stock is not available 
+2026-11-02 11:46:49,919 - INFO - Success: Total price is 200
+2026-11-02 11:46:49,919 - INFO - Success: Discounted amount is 20.0
+2026-11-02 11:46:49,919 - ERROR - Calculation error: Price cannot be negative
+2026-11-05 15:47:18,618 - INFO - Product check: Stock is available
+2026-11-05 15:47:18,618 - ERROR - Product check error: Stock is not available 
+2026-11-05 15:47:18,618 - INFO - Success: Total price is 200
+2026-11-05 15:47:18,618 - INFO - Success: Discounted amount is 20.0
+2026-11-05 15:47:18,618 - ERROR - Calculation error: Price cannot be negative
+2026-11-05 15:53:39,229 - INFO - Product check: Stock is available
+2026-11-05 15:53:39,229 - ERROR - Product check error: Stock is not available 
+2026-11-05 15:53:39,230 - INFO - Success: Total price is 200
+2026-11-05 15:53:39,230 - INFO - Success: Discounted amount is 20.0
+2026-11-05 15:53:39,230 - ERROR - Calculation error: Price cannot be negative
